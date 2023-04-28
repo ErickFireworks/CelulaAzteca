@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html * {
+  font-family: 'Lexend' !important; }
+
+.login-background {
+  background: linear-gradient(90deg, rgba(37, 145, 69, 0.95) 0%, rgba(141, 198, 65, 0.95) 100%) !important; }
+
+.anchor-login {
+  color: #444444 !important; }
+
+.version-login {
+  color: #7E7E7E !important; }
+
+.form-container {
+  width: 460px;
+  padding: 20px 60px;
+  background: #FFFFFF !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 10px !important; }
+  .form-container h4 {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 38px !important;
+    text-align: center !important;
+    color: #217D3D; }
+  .form-container label {
+    font-weight: 800 !important; }
+  .form-container input[type=text], .form-container input[type=password] {
+    border: 1px solid #AAAAAA !important;
+    border-radius: 5px !important; }
+  .form-container button {
+    background: #20843F !important;
+    border-radius: 5px !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=index.css.map */
