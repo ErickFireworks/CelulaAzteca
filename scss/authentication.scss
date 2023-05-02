@@ -1,0 +1,78 @@
+html * {
+  font-family: 'Lexend' !important;
+}
+.login-background {
+  background: $background;
+}
+
+.anchor-login {
+  color: $black-color !important;
+  font-weight: 700;
+}
+
+.version-login {
+  color: $black-gray !important;
+}
+
+.form-container {
+  width: 400px;
+  padding: 20px 70px;
+  background: $white-color !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 10px !important;
+
+  h4 {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 38px !important;
+    text-align: center !important;
+    // text-transform: uppercase;
+    color: #217D3D;
+  }
+
+  .label-bold {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: $black-color;
+  }
+
+  .label-thin {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #7E7E7E;
+  }
+
+  input[type=text], input[type=password] {
+    border: 1px solid #AAAAAA !important;
+    border-radius: 5px !important;
+  }
+
+  button {
+    background: $primary-color !important;
+    border-radius: 5px !important;
+    border: 2px solid $primary-color !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: $white-color !important;
+    padding: 10px 25px !important;
+  }
+}
+
+.alert-primary-ca{
+  color: $black-color !important;
+  background-color: $white-color !important;
+  border-color: $white-color !important;
+  a{
+    color: $black-color !important;
+    font-weight: 700;
+  }
+}
