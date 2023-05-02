@@ -61,4 +61,15 @@ html * {
   color: #444444 !important;
   font-weight: 700; }
 
+.header .navbar {
+  background: #ffffff !important; }
+
+.logo-avatar-header {
+  background-repeat: no-repeat !important;
+  width: 80% !important;
+  height: 55px !important;
+  margin: 10px 10px !important;
+  padding: 0 !important;
+  background-size: contain !important; }
+
 /*# sourceMappingURL=styles.css.map */

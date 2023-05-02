@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://rcc.checkbitonline.com/dashboard -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>RCC Payment Management System</title>
+  <!--<base href="/">--><base href=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="https://rcc.checkbitonline.com/favicon.ico">
+<link rel="stylesheet" href="./platform_dashboard_files/styles.c03d0f23afb09fc9e886.css"><style></style><script charset="utf-8" src="./platform_dashboard_files/8-es2015.c43116e3e4c3cee167e5.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/11-es2015.6cd5417113821a6a7a70.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/common-es2015.bdc41102edea1d3540e7.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/27-es2015.72f00552d176d9c91df7.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/0-es2015.3f161b21474a31669b79.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/1-es2015.e422eaf56744fef3202d.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/2-es2015.428a8f7c922804ccf289.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/4-es2015.ccc55e5209b6b12f4fdc.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/7-es2015.ec6c6f7193c85ee627ab.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/9-es2015.e78a4f92d1544a774250.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/26-es2015.c8adeb6b7b426b0fb382.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/32-es2015.d24a239ac64b64591616.js.descarga"></script><style>.form-control.is-invalid[_ngcontent-pin-c108], .was-validated[_ngcontent-pin-c108]   .form-control[_ngcontent-pin-c108]:invalid{border-color:transparent transparent red!important;border-bottom-width:1.5px!important}.form-control[_ngcontent-pin-c108]{border-color:transparent transparent #000!important;border-bottom-width:1.5px!important}.mVersion[_ngcontent-pin-c108]{margin-top:40px;margin-bottom:-50px;margin-right:-20px;color:#76828e;text-align:right}[_nghost-pin-c108]{display:block}.login-page[_ngcontent-pin-c108]{position:absolute;top:0;left:0;right:0;bottom:0;overflow:auto;background-image:radial-gradient(circle farthest-corner at 75% 95%,#fff,#d6e5ee);background-repeat:no-repeat;text-align:center;color:#222;padding:3em}.login-page[_ngcontent-pin-c108]   .col-lg-4[_ngcontent-pin-c108]{padding:0}.login-page[_ngcontent-pin-c108]   .input-lg[_ngcontent-pin-c108]{height:46px;padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:0}.login-page[_ngcontent-pin-c108]   .input-underline[_ngcontent-pin-c108]{background:0 0;box-shadow:none;border:none;border-bottom:2px solid rgba(34,34,34,.5);color:#222;border-radius:0}.login-page[_ngcontent-pin-c108]   .input-underline[_ngcontent-pin-c108]:focus{border-bottom:2px solid #222;box-shadow:none}.login-page[_ngcontent-pin-c108]   .rounded-btn[_ngcontent-pin-c108]{border-radius:50px;color:rgba(34,34,34,.8);background:#1ab7ea;border:2px solid rgba(34,34,34,.8);font-size:18px;line-height:40px;padding:0 25px;color:#eee}.login-page[_ngcontent-pin-c108]   .rounded-btn[_ngcontent-pin-c108]:active, .login-page[_ngcontent-pin-c108]   .rounded-btn[_ngcontent-pin-c108]:focus, .login-page[_ngcontent-pin-c108]   .rounded-btn[_ngcontent-pin-c108]:hover, .login-page[_ngcontent-pin-c108]   .rounded-btn[_ngcontent-pin-c108]:visited{color:#ddd;border:2px solid #222;outline:none}.login-page[_ngcontent-pin-c108]   h1[_ngcontent-pin-c108]{font-weight:300;margin-top:20px;margin-bottom:10px;font-size:36px}.login-page[_ngcontent-pin-c108]   h1[_ngcontent-pin-c108]   small[_ngcontent-pin-c108]{color:rgba(34,34,34,.7)}.login-page[_ngcontent-pin-c108]   .form-group[_ngcontent-pin-c108]{padding:8px 0}.login-page[_ngcontent-pin-c108]   .form-group[_ngcontent-pin-c108]   input[_ngcontent-pin-c108]::-webkit-input-placeholder{color:rgba(34,34,34,.6)!important}.login-page[_ngcontent-pin-c108]   .form-group[_ngcontent-pin-c108]   input[_ngcontent-pin-c108]:-moz-placeholder, .login-page[_ngcontent-pin-c108]   .form-group[_ngcontent-pin-c108]   input[_ngcontent-pin-c108]::-moz-placeholder{color:rgba(34,34,34,.6)!important}.login-page[_ngcontent-pin-c108]   .form-group[_ngcontent-pin-c108]   input[_ngcontent-pin-c108]:-ms-input-placeholder{color:rgba(34,34,34,.6)!important}.login-page[_ngcontent-pin-c108]   .form-content[_ngcontent-pin-c108]{padding:40px 0}.login-page[_ngcontent-pin-c108]   .btn[_ngcontent-pin-c108]:disabled{opacity:.5}.login-page[_ngcontent-pin-c108]   .project-name[_ngcontent-pin-c108]{color:#1ab7ea}</style><style>.backdrop[_ngcontent-pin-c58] {
+        z-index: 1999;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+
+      
+      .spinner-circle[_ngcontent-pin-c58], .spinner-circle[_ngcontent-pin-c58]:after {
+          border-radius: 50%;
+          width: 10em;
+          height: 10em;
+      }
+
+      .spinner-circle[_ngcontent-pin-c58] {
+          font-size: 6px;
+          border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+          border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+          border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+          border-left: 1.1em solid #ffffff;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+          -webkit-transform: translateZ(0);
+          -ms-transform: translateZ(0);
+          transform: translateZ(0);
+          -webkit-animation: load8 1.1s infinite linear;
+          animation: load8 1.1s infinite linear;
+      }
+      @-webkit-keyframes load8 {
+          0% {
+              -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+          }
+          100% {
+              -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+          }
+      }
+      @keyframes load8 {
+          0% {
+              -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+          }
+          100% {
+              -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+          }
+      }
+
+      
+      .spinner-circle-swish[_ngcontent-pin-c58] {
+          font-size: 60px;
+          overflow: hidden;
+          width: 1em;
+          height: 1em;
+          z-index: 2000;
+          border-radius: 50%;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+          -webkit-transform: translateZ(0);
+          -ms-transform: translateZ(0);
+          transform: translateZ(0);
+          -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+          animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+        }
+        @-webkit-keyframes load6 {
+          0% {
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+          }
+          5%,
+          95% {
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+          }
+          10%,
+          59% {
+            box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+          }
+          20% {
+            box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+          }
+          38% {
+            box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+          }
+          100% {
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+          }
+        }
+        @keyframes load6 {
+          0% {
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+          }
+          5%,
+          95% {
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+          }
+          10%,
+          59% {
+            box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+          }
+          20% {
+            box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+          }
+          38% {
+            box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+          }
+          100% {
+            box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+          }
+        }
+        @-webkit-keyframes round {
+          0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+        @keyframes round {
+          0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+
+      
+      .sk-cube-grid[_ngcontent-pin-c58] {
+          width: 40px;
+          height: 40px;
+
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube[_ngcontent-pin-c58] {
+          width: 33%;
+          height: 33%;
+          background-color: #333;
+          float: left;
+          -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube1[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube2[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube3[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube4[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube5[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube6[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube7[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube8[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+      }
+
+      .sk-cube-grid[_ngcontent-pin-c58]   .sk-cube9[_ngcontent-pin-c58] {
+          -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+      }
+
+      @-webkit-keyframes sk-cubeGridScaleDelay {
+          0%, 70%, 100% {
+              -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+          } 35% {
+              -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+          }
+      }
+
+      @keyframes sk-cubeGridScaleDelay {
+          0%, 70%, 100% {
+              -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+          } 35% {
+              -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+          }
+      }
+
+      
+      .spinner-double-bounce[_ngcontent-pin-c58] {
+          width: 40px;
+          height: 40px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+      }
+
+      .double-bounce1[_ngcontent-pin-c58], .double-bounce2[_ngcontent-pin-c58] {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background-color: #333;
+          opacity: 0.6;
+          position: absolute;
+          top: 0;
+          left: 0;
+          -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+          animation: sk-bounce 2.0s infinite ease-in-out;
+      }
+
+      .double-bounce2[_ngcontent-pin-c58] {
+          -webkit-animation-delay: -1.0s;
+          animation-delay: -1.0s;
+      }
+
+      @-webkit-keyframes sk-bounce {
+          0%, 100% { -webkit-transform: scale(0.0) }
+          50% { -webkit-transform: scale(1.0) }
+      }
+
+      @keyframes sk-bounce {
+          0%, 100% {
+            transform: scale(0.0);
+            -webkit-transform: scale(0.0);
+          } 50% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+          }
+      }
+
+      
+      .spinner-pulse[_ngcontent-pin-c58] {
+          width: 40px;
+          height: 40px;
+          background-color: #333;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+          border-radius: 100%;
+          -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+          animation: sk-scaleout 1.0s infinite ease-in-out;
+      }
+
+      @-webkit-keyframes sk-scaleout {
+          0% { -webkit-transform: scale(0) }
+          100% {
+            -webkit-transform: scale(1.0);
+            opacity: 0;
+          }
+      }
+
+      @keyframes sk-scaleout {
+          0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+          } 100% {
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            opacity: 0;
+          }
+      }
+
+      
+      .spinner-three-bounce[_ngcontent-pin-c58] {
+          width: 70px;
+          text-align: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: 20px;
+          margin: auto;
+          z-index: 2000;
+      }
+
+      .spinner-three-bounce[_ngcontent-pin-c58]    > div[_ngcontent-pin-c58] {
+          width: 18px;
+          height: 18px;
+          background-color: #ffffff;
+
+          border-radius: 100%;
+          display: inline-block;
+          -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+          animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+      }
+
+      .spinner-three-bounce[_ngcontent-pin-c58]   .bounce1[_ngcontent-pin-c58] {
+          -webkit-animation-delay: -0.32s;
+          animation-delay: -0.32s;
+      }
+
+      .spinner-three-bounce[_ngcontent-pin-c58]   .bounce2[_ngcontent-pin-c58] {
+          -webkit-animation-delay: -0.16s;
+          animation-delay: -0.16s;
+      }
+
+      @-webkit-keyframes sk-bouncedelay {
+          0%, 80%, 100% { -webkit-transform: scale(0) }
+          40% { -webkit-transform: scale(1.0) }
+      }
+
+      @keyframes sk-bouncedelay {
+          0%, 80%, 100% {
+              -webkit-transform: scale(0);
+              transform: scale(0);
+          } 40% {
+              -webkit-transform: scale(1.0);
+              transform: scale(1.0);
+          }
+      }
+
+      
+      .spinner-sk-rotateplane[_ngcontent-pin-c58] {
+          width: 40px;
+          height: 40px;
+          background-color: #ffffff;
+          text-align: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+          -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+          animation: sk-rotateplane 1.2s infinite ease-in-out;
+      }
+
+      @-webkit-keyframes sk-rotateplane {
+          0% { -webkit-transform: perspective(120px) }
+          50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+          100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+      }
+
+      @keyframes sk-rotateplane {
+          0% {
+              transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+              -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+          } 50% {
+              transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+              -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+          } 100% {
+              transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+              -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+          }
+      }
+
+      
+      .spinner-rectangle-bounce[_ngcontent-pin-c58] {
+          width: 50px;
+          height: 40px;
+          font-size: 10px;
+          text-align: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+      }
+
+      .spinner-rectangle-bounce[_ngcontent-pin-c58]    > div[_ngcontent-pin-c58] {
+          background-color: #ffffff;
+          height: 100%;
+          width: 6px;
+          display: inline-block;
+          -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+          animation: sk-stretchdelay 1.2s infinite ease-in-out;
+      }
+
+      .spinner-rectangle-bounce[_ngcontent-pin-c58]   .rect2[_ngcontent-pin-c58] {
+          -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s;
+      }
+
+      .spinner-rectangle-bounce[_ngcontent-pin-c58]   .rect3[_ngcontent-pin-c58] {
+          -webkit-animation-delay: -1.0s;
+          animation-delay: -1.0s;
+      }
+
+      .spinner-rectangle-bounce[_ngcontent-pin-c58]   .rect4[_ngcontent-pin-c58] {
+          -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+      }
+
+      .spinner-rectangle-bounce[_ngcontent-pin-c58]   .rect5[_ngcontent-pin-c58] {
+          -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+      }
+
+      @-webkit-keyframes sk-stretchdelay {
+          0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+          20% { -webkit-transform: scaleY(1.0) }
+      }
+
+      @keyframes sk-stretchdelay {
+          0%, 40%, 100% {
+              transform: scaleY(0.4);
+              -webkit-transform: scaleY(0.4);
+          }  20% {
+              transform: scaleY(1.0);
+              -webkit-transform: scaleY(1.0);
+          }
+      }
+
+      
+      .spinner-wandering-cubes[_ngcontent-pin-c58] {
+          width: 60px;
+          height: 58px;
+          font-size: 10px;
+          text-align: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+      }
+
+      .cube1[_ngcontent-pin-c58], .cube2[_ngcontent-pin-c58] {
+          background-color: #ffffff;
+          width: 15px;
+          height: 15px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+          animation: sk-cubemove 1.8s infinite ease-in-out;
+      }
+
+      .cube2[_ngcontent-pin-c58] {
+          -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+      }
+
+      @-webkit-keyframes sk-cubemove {
+          25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+          50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+          75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+          100% { -webkit-transform: rotate(-360deg) }
+      }
+
+      @keyframes sk-cubemove {
+          25% {
+              transform: translateX(42px) rotate(-90deg) scale(0.5);
+              -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+          } 50% {
+              transform: translateX(42px) translateY(42px) rotate(-179deg);
+              -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+          } 50.1% {
+              transform: translateX(42px) translateY(42px) rotate(-180deg);
+              -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+          } 75% {
+              transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+              -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+          } 100% {
+              transform: rotate(-360deg);
+              -webkit-transform: rotate(-360deg);
+          }
+      }
+
+      
+      .sk-circle[_ngcontent-pin-c58] {
+          width: 40px;
+          height: 40px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+        }
+        .sk-circle[_ngcontent-pin-c58]   .sk-child[_ngcontent-pin-c58] {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+        .sk-circle[_ngcontent-pin-c58]   .sk-child[_ngcontent-pin-c58]:before {
+          content: '';
+          display: block;
+          margin: 0 auto;
+          width: 15%;
+          height: 15%;
+          background-color: #333;
+          border-radius: 100%;
+          -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+                  animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+        }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle2[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(30deg);
+              -ms-transform: rotate(30deg);
+                  transform: rotate(30deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle3[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(60deg);
+              -ms-transform: rotate(60deg);
+                  transform: rotate(60deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle4[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(90deg);
+              -ms-transform: rotate(90deg);
+                  transform: rotate(90deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle5[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(120deg);
+              -ms-transform: rotate(120deg);
+                  transform: rotate(120deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle6[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(150deg);
+              -ms-transform: rotate(150deg);
+                  transform: rotate(150deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle7[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+                  transform: rotate(180deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle8[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(210deg);
+              -ms-transform: rotate(210deg);
+                  transform: rotate(210deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle9[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(240deg);
+              -ms-transform: rotate(240deg);
+                  transform: rotate(240deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle10[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(270deg);
+              -ms-transform: rotate(270deg);
+                  transform: rotate(270deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle11[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(300deg);
+              -ms-transform: rotate(300deg);
+                  transform: rotate(300deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle12[_ngcontent-pin-c58] {
+          -webkit-transform: rotate(330deg);
+              -ms-transform: rotate(330deg);
+                  transform: rotate(330deg); }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle2[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -1.1s;
+                  animation-delay: -1.1s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle3[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -1s;
+                  animation-delay: -1s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle4[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.9s;
+                  animation-delay: -0.9s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle5[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.8s;
+                  animation-delay: -0.8s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle6[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.7s;
+                  animation-delay: -0.7s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle7[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.6s;
+                  animation-delay: -0.6s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle8[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.5s;
+                  animation-delay: -0.5s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle9[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.4s;
+                  animation-delay: -0.4s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle10[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.3s;
+                  animation-delay: -0.3s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle11[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.2s;
+                  animation-delay: -0.2s; }
+        .sk-circle[_ngcontent-pin-c58]   .sk-circle12[_ngcontent-pin-c58]:before {
+          -webkit-animation-delay: -0.1s;
+                  animation-delay: -0.1s; }
+
+        @-webkit-keyframes sk-circleBounceDelay {
+          0%, 80%, 100% {
+            -webkit-transform: scale(0);
+                    transform: scale(0);
+          } 40% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+        }
+
+        @keyframes sk-circleBounceDelay {
+          0%, 80%, 100% {
+            -webkit-transform: scale(0);
+                    transform: scale(0);
+          } 40% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+          }
+        }
+
+        
+        .spinner-chasing-dots[_ngcontent-pin-c58] {
+          width: 40px;
+          height: 40px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          z-index: 2000;
+          text-align: center;
+          -webkit-animation: sk-rotate 2.0s infinite linear;
+          animation: sk-rotate 2.0s infinite linear;
+        }
+
+        .dot1[_ngcontent-pin-c58], .dot2[_ngcontent-pin-c58] {
+          width: 60%;
+          height: 60%;
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          background-color: #333;
+          border-radius: 100%;
+          -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+          animation: sk-bounce 2.0s infinite ease-in-out;
+        }
+
+        .dot2[_ngcontent-pin-c58] {
+          top: auto;
+          bottom: 0;
+          -webkit-animation-delay: -1.0s;
+          animation-delay: -1.0s;
+        }
+
+        @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+        @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+        @-webkit-keyframes sk-bounce {
+          0%, 100% { -webkit-transform: scale(0.0) }
+          50% { -webkit-transform: scale(1.0) }
+        }
+
+        @keyframes sk-bounce {
+          0%, 100% {
+            transform: scale(0.0);
+            -webkit-transform: scale(0.0);
+          } 50% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+          }
+        }
+
+      .full-screen[_ngcontent-pin-c58] {
+          position: fixed;
+          position: -ms-page;
+      }</style><link id="profile-theme" rel="stylesheet" href="./platform_dashboard_files/profile-one.css"><script charset="utf-8" src="./platform_dashboard_files/38-es2015.2f834a0f227d3d3276be.js.descarga"></script><style>[_nghost-pin-c109]{display:block}.password-recovery-page[_ngcontent-pin-c109]{position:absolute;top:0;left:0;right:0;bottom:0;overflow:auto;background-image:radial-gradient(circle farthest-corner at 75% 95%,#fff,#d6e5ee);background-repeat:no-repeat;text-align:center;color:#222;padding:3em}.password-recovery-page[_ngcontent-pin-c109]   .col-lg-4[_ngcontent-pin-c109]{padding:0}.password-recovery-page[_ngcontent-pin-c109]   .input-lg[_ngcontent-pin-c109]{height:46px;padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:0}.password-recovery-page[_ngcontent-pin-c109]   .input-underline[_ngcontent-pin-c109]{background:0 0;box-shadow:none;border:none;border-bottom:2px solid rgba(34,34,34,.5);color:#222;border-radius:0}.password-recovery-page[_ngcontent-pin-c109]   .input-underline[_ngcontent-pin-c109]:focus{border-bottom:2px solid #222;box-shadow:none}.password-recovery-page[_ngcontent-pin-c109]   .rounded-btn[_ngcontent-pin-c109]{border-radius:50px;color:rgba(34,34,34,.8);background:#222;border:2px solid rgba(34,34,34,.8);font-size:18px;line-height:40px;padding:0 25px;color:#eee}.password-recovery-page[_ngcontent-pin-c109]   .rounded-btn[_ngcontent-pin-c109]:active, .password-recovery-page[_ngcontent-pin-c109]   .rounded-btn[_ngcontent-pin-c109]:focus, .password-recovery-page[_ngcontent-pin-c109]   .rounded-btn[_ngcontent-pin-c109]:hover, .password-recovery-page[_ngcontent-pin-c109]   .rounded-btn[_ngcontent-pin-c109]:visited{color:#ddd;border:2px solid #222;outline:none}.password-recovery-page[_ngcontent-pin-c109]   h1[_ngcontent-pin-c109]{font-weight:300;margin-top:20px;margin-bottom:10px;font-size:36px}.password-recovery-page[_ngcontent-pin-c109]   h1[_ngcontent-pin-c109]   small[_ngcontent-pin-c109]{color:rgba(34,34,34,.7)}.password-recovery-page[_ngcontent-pin-c109]   .form-group[_ngcontent-pin-c109]{padding:8px 0}.password-recovery-page[_ngcontent-pin-c109]   .form-group[_ngcontent-pin-c109]   input[_ngcontent-pin-c109]::-webkit-input-placeholder{color:rgba(34,34,34,.6)!important}.password-recovery-page[_ngcontent-pin-c109]   .form-group[_ngcontent-pin-c109]   input[_ngcontent-pin-c109]:-moz-placeholder, .password-recovery-page[_ngcontent-pin-c109]   .form-group[_ngcontent-pin-c109]   input[_ngcontent-pin-c109]::-moz-placeholder{color:rgba(34,34,34,.6)!important}.password-recovery-page[_ngcontent-pin-c109]   .form-group[_ngcontent-pin-c109]   input[_ngcontent-pin-c109]:-ms-input-placeholder{color:rgba(34,34,34,.6)!important}.password-recovery-page[_ngcontent-pin-c109]   .form-content[_ngcontent-pin-c109]{padding:40px 0}.password-recovery-page[_ngcontent-pin-c109]   .btn[_ngcontent-pin-c109]:disabled{opacity:.05}.password-recovery-page[_ngcontent-pin-c109]   .logo-avatar[_ngcontent-pin-c109]{width:150px}.password-recovery-page[_ngcontent-pin-c109]   .fa-8x[_ngcontent-pin-c109]{font-size:8em}</style><style>div.main-content[_ngcontent-pin-c66]{min-height:calc(100vh - 120px);position:relative;height:100%}.main-container[_ngcontent-pin-c66]{padding:100px 15px 50px;background:#f5f9fc;transition:margin,.4s;min-height:90vh}.push[_ngcontent-pin-c66]{height:0;background:#f5f9fc}.override-backdrop[_ngcontent-pin-c66]{opacity:.4!important}.ng-sidebar--left[_ngcontent-pin-c66]{margin-top:56px}.ng-sidebar__backdrop[_ngcontent-pin-c66]{top:56px!important}</style><style>[_nghost-pin-c56] {
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .ng-sidebar__backdrop[_ngcontent-pin-c56] {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #000;
+      opacity: 0.75;
+      pointer-events: auto;
+      z-index: 1;
+    }
+
+    .ng-sidebar__content[_ngcontent-pin-c56] {
+      -webkit-overflow-scrolling: touch;
+      overflow: auto;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .ng-sidebar__content--animate[_ngcontent-pin-c56] {
+      -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 0, 0.3, 1), padding 0.3s cubic-bezier(0, 0, 0.3, 1);
+      transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1), padding 0.3s cubic-bezier(0, 0, 0.3, 1);
+    }</style><style>.ng-sidebar[_ngcontent-pin-c57] {
+      -webkit-overflow-scrolling: touch;
+      overflow: auto;
+      pointer-events: auto;
+      position: absolute;
+      touch-action: auto;
+      will-change: initial;
+      z-index: 2;
+    }
+
+    .ng-sidebar--left[_ngcontent-pin-c57] {
+      bottom: 0;
+      left: 0;
+      top: 0;
+    }
+
+    .ng-sidebar--right[_ngcontent-pin-c57] {
+      bottom: 0;
+      right: 0;
+      top: 0;
+    }
+
+    .ng-sidebar--top[_ngcontent-pin-c57] {
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+
+    .ng-sidebar--bottom[_ngcontent-pin-c57] {
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .ng-sidebar--inert[_ngcontent-pin-c57] {
+      pointer-events: none;
+      touch-action: none;
+      will-change: transform;
+    }
+
+    .ng-sidebar--animate[_ngcontent-pin-c57] {
+      -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+      transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+    }</style><style>.sidebar[_ngcontent-pin-c62]{position:fixed;z-index:1000;top:56px;left:235px;width:400px;margin-left:-235px;margin-bottom:48px;margin-top:20px;border:none;border-radius:0;overflow-y:auto;bottom:-50px;overflow-x:hidden;padding-bottom:40px;white-space:nowrap;transition:all .2s ease-in-out}.sidebar[_ngcontent-pin-c62]   .list-group[_ngcontent-pin-c62]   a.list-group-item[_ngcontent-pin-c62]{border:0;border-radius:0;color:#999;text-decoration:none}.sidebar[_ngcontent-pin-c62]   .list-group[_ngcontent-pin-c62]   a.list-group-item[_ngcontent-pin-c62]   .fa[_ngcontent-pin-c62]{margin-right:10px}.sidebar[_ngcontent-pin-c62]   .list-group[_ngcontent-pin-c62]   a.router-link-active[_ngcontent-pin-c62], .sidebar[_ngcontent-pin-c62]   .list-group[_ngcontent-pin-c62]   a[_ngcontent-pin-c62]:hover{color:#fff}.sidebar[_ngcontent-pin-c62]   .list-group[_ngcontent-pin-c62]   .header-fields[_ngcontent-pin-c62]{padding-top:10px}.sidebar[_ngcontent-pin-c62]   .list-group[_ngcontent-pin-c62]   .header-fields[_ngcontent-pin-c62] > .list-group-item[_ngcontent-pin-c62]:first-child{border-top:1px solid hsla(0,0%,100%,.2)}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   [_ngcontent-pin-c62]:focus{border-radius:none;border:none}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-title[_ngcontent-pin-c62]{font-size:1rem;height:50px;margin-bottom:0}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-title[_ngcontent-pin-c62]   a[_ngcontent-pin-c62]{color:#999;text-decoration:none;font-weight:400}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-title[_ngcontent-pin-c62]   a[_ngcontent-pin-c62]   span[_ngcontent-pin-c62]{position:relative;display:block;padding:1rem 1.5rem .75rem}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-title[_ngcontent-pin-c62]   a[_ngcontent-pin-c62]:focus, .sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-title[_ngcontent-pin-c62]   a[_ngcontent-pin-c62]:hover{color:#fff;outline:none;outline-offset:-2px}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-collapse[_ngcontent-pin-c62]{border-radious:0;border:none}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-collapse[_ngcontent-pin-c62]   .panel-body[_ngcontent-pin-c62]   .list-group-item[_ngcontent-pin-c62]{border-radius:0;border:0 solid transparent}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-collapse[_ngcontent-pin-c62]   .panel-body[_ngcontent-pin-c62]   .list-group-item[_ngcontent-pin-c62]   a[_ngcontent-pin-c62]{color:#999}.sidebar[_ngcontent-pin-c62]   .sidebar-dropdown[_ngcontent-pin-c62]   .panel-collapse[_ngcontent-pin-c62]   .panel-body[_ngcontent-pin-c62]   .list-group-item[_ngcontent-pin-c62]   a[_ngcontent-pin-c62]:hover{color:#fff}.nested-menu[_ngcontent-pin-c62]   .list-group-item[_ngcontent-pin-c62]{cursor:pointer}.nested-menu[_ngcontent-pin-c62]   .nested[_ngcontent-pin-c62]{list-style-type:none}.nested-menu[_ngcontent-pin-c62]   ul.submenu[_ngcontent-pin-c62]{display:none;height:0}.nested-menu[_ngcontent-pin-c62]   .expand[_ngcontent-pin-c62]   ul.submenu[_ngcontent-pin-c62]{display:block;list-style-type:none;height:auto}.nested-menu[_ngcontent-pin-c62]   .expand[_ngcontent-pin-c62]   ul.submenu[_ngcontent-pin-c62]   li[_ngcontent-pin-c62]   a[_ngcontent-pin-c62]{color:#fff;padding:10px;display:block}@media screen and (max-width:992px){.sidebar[_ngcontent-pin-c62]{top:54px;left:0}}@media print{.sidebar[_ngcontent-pin-c62]{display:none!important}}@media (min-width:992px){.header-fields[_ngcontent-pin-c62]{display:none}}[_ngcontent-pin-c62]::-webkit-scrollbar{width:8px}[_ngcontent-pin-c62]::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 0 #fff;border-radius:3px}[_ngcontent-pin-c62]::-webkit-scrollbar-thumb{border-radius:3px;-webkit-box-shadow:inset 0 0 3px #fff}.toggle-button[_ngcontent-pin-c62]{position:fixed;width:236px;cursor:pointer;padding:12px;bottom:0;color:#999;background:#212529;border-top:1px solid #999;transition:all .2s ease-in-out}.toggle-button[_ngcontent-pin-c62]   i[_ngcontent-pin-c62]{font-size:23px}.toggle-button[_ngcontent-pin-c62]:hover{color:#fff}.collapsed[_ngcontent-pin-c62]{width:60px}.collapsed[_ngcontent-pin-c62]   span[_ngcontent-pin-c62]{display:none}</style><style>.header[_ngcontent-pin-c64]   .dropdown-menu[_ngcontent-pin-c64]{min-width:150px;margin:.5rem 0 0}.header[_ngcontent-pin-c64]   i[_ngcontent-pin-c64]   span.notification-active[_ngcontent-pin-c64]{color:#fff;background-color:red;width:15px;height:15px;padding:1px 3px;border-radius:15px;text-align:center;font-size:9px;line-height:1.42857;font-family:Arial,Helvetica,sans-serif;margin-left:-4px;font-weight:700}.header[_ngcontent-pin-c64]   a.dropdown-item[_ngcontent-pin-c64]{width:auto;padding:.25rem 1rem}.header[_ngcontent-pin-c64]   .logo[_ngcontent-pin-c64]{height:50px;margin:0 10px 0 30px}.header[_ngcontent-pin-c64]   .name-company[_ngcontent-pin-c64]{font-family:Quicksand,sans-serif;margin-left:0;font-size:30px;vertical-align:middle;font-weight:400}.header[_ngcontent-pin-c64]   .toggler-hamburger[_ngcontent-pin-c64]{border:none;background:transparent!important;display:contents}.header[_ngcontent-pin-c64]   .toggler-hamburger[_ngcontent-pin-c64]   .icon-bar[_ngcontent-pin-c64]{background-color:#fff;transform:rotate(0deg) translate(0);transition:all .2s ease;display:block;width:30px;height:3px;border-radius:1px;margin:6px 0}.header[_ngcontent-pin-c64]   .toggler-hamburger[_ngcontent-pin-c64]   .icon-bar[_ngcontent-pin-c64] + .icon-bar[_ngcontent-pin-c64]{margin-top:5px}.header[_ngcontent-pin-c64]   .toggler-hamburger[aria-expanded=false][_ngcontent-pin-c64]   .top-bar[_ngcontent-pin-c64]{transform:rotate(45deg);transform-origin:10% 10%}.header[_ngcontent-pin-c64]   .toggler-hamburger[aria-expanded=false][_ngcontent-pin-c64]   .middle-bar[_ngcontent-pin-c64]{opacity:0}.header[_ngcontent-pin-c64]   .toggler-hamburger[aria-expanded=false][_ngcontent-pin-c64]   .bottom-bar[_ngcontent-pin-c64]{transform:rotate(-45deg);transform-origin:0 50%}.header[_ngcontent-pin-c64]   .toggler-hamburger[aria-expanded=true][_ngcontent-pin-c64]   .top-bar[_ngcontent-pin-c64]{transform:rotate(0)}.header[_ngcontent-pin-c64]   .toggler-hamburger[aria-expanded=true][_ngcontent-pin-c64]   .middle-bar[_ngcontent-pin-c64]{opacity:1}.header[_ngcontent-pin-c64]   .toggler-hamburger[aria-expanded=true][_ngcontent-pin-c64]   .bottom-bar[_ngcontent-pin-c64]{transform:rotate(0)}.header[_ngcontent-pin-c64]   nav[_ngcontent-pin-c64]{box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}.header[_ngcontent-pin-c64]   .colorTransfastTitle[_ngcontent-pin-c64]{color:#fff}</style><style>.footer[_ngcontent-pin-c65]{bottom:0;clear:both;height:10%;width:100%;text-align:center;background:#f5f9fc}.footer-text[_ngcontent-pin-c65]{color:#939393;font-weight:400;padding-top:50px}</style><style>.header-new-blue-info[_ngcontent-pin-c106]{background-color:#d9edf7!important;border-color:#bce8f1!important}.header-new-green-info[_ngcontent-pin-c106]{background-color:#dff0d8!important;border-color:#d6e9c6!important}</style><script charset="utf-8" src="./platform_dashboard_files/3-es2015.70f4590f8598ef23c9b1.js.descarga"></script><script charset="utf-8" src="./platform_dashboard_files/20-es2015.d53a35a08bec912289c6.js.descarga"></script><style>.page-header[_ngcontent-pin-c112]   h1[_ngcontent-pin-c112]{margin-top:0;margin-bottom:0;color:#5a5a5a}.page-header[_ngcontent-pin-c112]   i[_ngcontent-pin-c112]:before{margin-left:0;margin-right:10px;color:#1ab7ea}.page-header[_ngcontent-pin-c112] > div.module-icon[_ngcontent-pin-c112]{line-height:4em}.page-header[_ngcontent-pin-c112]   .sub-title[_ngcontent-pin-c112]{color:#8d8d8d}.page-header[_ngcontent-pin-c112]   .watermark[_ngcontent-pin-c112]{position:fixed;top:2.3em;right:.7em;font-size:1.6em;z-index:-1}.page-header[_ngcontent-pin-c112]   .watermark[_ngcontent-pin-c112]   i[_ngcontent-pin-c112]:before{color:#fbfbfb;font-size:4em}</style><script charset="utf-8" src="./platform_dashboard_files/34-es2015.5739a7746b59fef54d66.js.descarga">
+    </script>
+
+    <!-- Fireworks -->
+      <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Fireworks -->
+    </head>
+
+<body class="dx-viewport dx-theme-generic dx-theme-generic-typography dx-color-scheme-light">
+  <app-root _nghost-pin-c13="" ng-version="11.1.2"><router-outlet _ngcontent-pin-c13=""></router-outlet><app-layout _nghost-pin-c66="" class="ng-star-inserted"><ng-sidebar-container _ngcontent-pin-c66="" backdropclass="override-backdrop" _nghost-pin-c56=""><!----><ng-sidebar _ngcontent-pin-c66="" showbackdrop="true" closeonclickbackdrop="true" _nghost-pin-c57=""><aside _ngcontent-pin-c57="" role="complementary" class="ng-sidebar ng-sidebar--closed ng-sidebar--left ng-sidebar--over ng-sidebar--inert" aria-hidden="true" style="transform: translateX(-100%);"><app-sidebar _ngcontent-pin-c66="" _nghost-pin-c62=""><nav _ngcontent-pin-c62="" class="sidebar"><ul _ngcontent-pin-c62="" class="list-group"><li _ngcontent-pin-c62="" class="ng-star-inserted"><a _ngcontent-pin-c62="" class="list-group-item" href="https://rcc.checkbitonline.com/payments"><i _ngcontent-pin-c62="" class="menu-icon fas fa-money-bill"></i>&nbsp;Payments </a></li><!----><!----><li _ngcontent-pin-c62="" class="ng-star-inserted"><a _ngcontent-pin-c62="" class="list-group-item" href="https://rcc.checkbitonline.com/catalogs-manager-payer-accounts"><i _ngcontent-pin-c62="" class="menu-icon fas fa-file-invoice"></i>&nbsp;Accounts </a></li><!----><!----><!----></ul><label _ngcontent-pin-c62="" class="list-group-item mt-4 ng-star-inserted">Version 1.1.1</label><!----></nav></app-sidebar></aside></ng-sidebar><div _ngcontent-pin-c56="" class="ng-sidebar__content ng-sidebar__content--animate" style="padding: 0px;"><div _ngcontent-pin-c66="" ng-sidebar-content="" class="main-content"><app-header _ngcontent-pin-c66="" _nghost-pin-c64=""><div _ngcontent-pin-c64="" class="pos-f-t fixed-top header"><nav _ngcontent-pin-c64="" class="navbar navbar-expand-lg fixed-top"><div _ngcontent-pin-c64=""><button _ngcontent-pin-c64="" id="toggleMenu" role="button" type="button" class="toggler-hamburger" aria-expanded="true"><div _ngcontent-pin-c64=""><i _ngcontent-pin-c64="" aria-hidden="true" class="fas fa-bars fa-2x"></i></div></button></div><a _ngcontent-pin-c64="" routerlink="/dashboard" class="navbar-brand header-height ng-star-inserted" href="https://rcc.checkbitonline.com/dashboard">
+    <!-- Change image -->
+    <img _ngcontent-pin-c64="" src="../images/icon.png" class="logo-avatar-header"></a><!----><div _ngcontent-pin-c64="" class="collapse navbar-collapse"><ul _ngcontent-pin-c64="" class="navbar-nav ml-auto"><!----><li _ngcontent-pin-c64="" class="nav-item"><a _ngcontent-pin-c64="" href="javascript:void(0)" class="nav-link"><i _ngcontent-pin-c64="" class="fas fa-address-card"></i>&nbsp;Contacts </a></li><li _ngcontent-pin-c64="" class="nav-item dropdown ng-star-inserted"><a _ngcontent-pin-c64="" href="javascript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><i _ngcontent-pin-c64="" class="fas fa-language"></i> Language <b _ngcontent-pin-c64="" class="caret"></b></a><div _ngcontent-pin-c64="" aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-menu-right"><a _ngcontent-pin-c64="" href="javascript:void(0)" class="dropdown-item ng-star-inserted"> Spanish </a><a _ngcontent-pin-c64="" href="javascript:void(0)" class="dropdown-item active ng-star-inserted"> English </a><!----></div></li><!----><li _ngcontent-pin-c64="" class="nav-item ng-star-inserted"><a _ngcontent-pin-c64="" class="nav-link"><i _ngcontent-pin-c64="" class="fa fa-user"></i> ERICK ALVA ALBERTO <b _ngcontent-pin-c64="" class="caret"></b></a></li><!----><li _ngcontent-pin-c64="" class="nav-item"><a _ngcontent-pin-c64="" href="javascript:void(0)" class="nav-link"><i _ngcontent-pin-c64="" class="fas fa-sign-out-alt"></i><span _ngcontent-pin-c64="" class="d-lg-none"> Close session</span></a></li></ul></div></nav></div></app-header><div _ngcontent-pin-c66="" class="push"></div><app-footer _ngcontent-pin-c66="" _nghost-pin-c65=""><footer _ngcontent-pin-c65="" class="footer"><div _ngcontent-pin-c65="" class="footer-text">SeedBit© 2021 Version 1.0.0</div></footer></app-footer><ngx-loading _ngcontent-pin-c66="" _nghost-pin-c58=""><!----></ngx-loading></div></div></ng-sidebar-container><section _ngcontent-pin-c66="" class="main-container"><router-outlet _ngcontent-pin-c66=""></router-outlet><app-dashboard _nghost-pin-c106="" class="ng-star-inserted"><div _ngcontent-pin-c106="" class="container-fluid background"><!----><div _ngcontent-pin-c106="" class="row ng-star-inserted"><div _ngcontent-pin-c106="" class="col-12"><div _ngcontent-pin-c106="" role="alert" class="alert alert-primary ng-star-inserted"><h5 _ngcontent-pin-c106="">Services</h5></div><!----><div _ngcontent-pin-c106="" class="row ng-star-inserted"><div _ngcontent-pin-c106="" class="col-md-3 mt-2 mb-2 ng-star-inserted"><div _ngcontent-pin-c106="" class="card"><div _ngcontent-pin-c106="" class="card-body alert-primary"><h5 _ngcontent-pin-c106="" class="card-title"><input _ngcontent-pin-c106="" type="radio" name="serviceRadio" value="item.paymentAgreementId" id="service_70d67162-2d8c-4393-ac38-5e727550abff"><label _ngcontent-pin-c106="" class="ml-2" for="service_70d67162-2d8c-4393-ac38-5e727550abff">Credit Card</label></h5><p _ngcontent-pin-c106="" class="card-text">TARJETA JAGUAR U</p><div _ngcontent-pin-c106="" class="row ng-star-inserted"><div _ngcontent-pin-c106="" class="col-12"><label _ngcontent-pin-c106="">Account:</label></div><div _ngcontent-pin-c106="" class="col-10"><dx-select-box _ngcontent-pin-c106="" id="accounts" displayexpr="accountNumberDisplay" valueexpr="customerAccountId" class="ng-untouched ng-pristine ng-valid dx-show-invalid-badge dx-selectbox dx-textbox dx-texteditor dx-dropdowneditor-button-visible dx-editor-outlined dx-texteditor-empty dx-widget dx-dropdowneditor dx-dropdowneditor-field-clickable"><div class="dx-dropdowneditor-input-wrapper dx-selectbox-container"><input type="hidden" value=""><div class="dx-texteditor-container"><div class="dx-texteditor-input-container"><input autocomplete="off" class="dx-texteditor-input" aria-haspopup="listbox" aria-autocomplete="list" type="text" readonly="" spellcheck="false" tabindex="0" role="combobox" aria-expanded="false"><div data-dx_placeholder="Select..." class="dx-placeholder"></div></div><div class="dx-texteditor-buttons-container"><div></div><div class="dx-button-normal dx-button-mode-contained dx-widget dx-dropdowneditor-button" aria-label="Select" role="button"><div class="dx-button-content"><div class="dx-dropdowneditor-icon"></div></div></div></div></div></div></dx-select-box></div><div _ngcontent-pin-c106="" class="col-2 pl-0"><button _ngcontent-pin-c106="" type="button" class="btn btn-primary btn-block"><!----><i _ngcontent-pin-c106="" class="fa fa-plus ng-star-inserted"></i><!----></button></div></div><!----><div _ngcontent-pin-c106="" class="row ng-star-inserted"><div _ngcontent-pin-c106="" class="col-12"><label _ngcontent-pin-c106="">Amount to pay:</label></div><div _ngcontent-pin-c106="" class="col-12"><dx-number-box _ngcontent-pin-c106="" step="0.1" id="amount_70d67162-2d8c-4393-ac38-5e727550abff" class="ng-untouched ng-pristine ng-valid dx-show-invalid-badge dx-numberbox dx-texteditor dx-show-clear-button dx-numberbox-spin dx-editor-outlined dx-texteditor-empty dx-widget"><input type="hidden" value="" name="amount_70d67162-2d8c-4393-ac38-5e727550abff"><div class="dx-texteditor-container"><div class="dx-texteditor-input-container"><input autocomplete="off" inputmode="decimal" class="dx-texteditor-input" type="text" spellcheck="false" min="0.1" max="undefined" step="0.1" aria-valuemin="0.1" aria-valuemax="" tabindex="0" aria-valuenow="" aria-valuetext="No data" role="spinbutton"><div data-dx_placeholder="" class="dx-placeholder"></div></div><div class="dx-texteditor-buttons-container"><span class="dx-clear-button-area"><span class="dx-icon dx-icon-clear"></span></span><div class="dx-numberbox-spin-container"><div class="dx-widget dx-numberbox-spin-button dx-numberbox-spin-up"><div class="dx-numberbox-spin-up-icon"></div></div><div class="dx-widget dx-numberbox-spin-button dx-numberbox-spin-down"><div class="dx-numberbox-spin-down-icon"></div></div></div></div></div></dx-number-box></div></div><!----><div _ngcontent-pin-c106="" class="row ng-star-inserted"><div _ngcontent-pin-c106="" class="col-12"><label _ngcontent-pin-c106="">Payment Date:</label></div><div _ngcontent-pin-c106="" class="col-12"><dx-date-box _ngcontent-pin-c106="" id="paymentDate_70d67162-2d8c-4393-ac38-5e727550abff" class="ng-untouched ng-pristine ng-valid dx-show-invalid-badge dx-datebox dx-textbox dx-texteditor dx-dropdowneditor-button-visible dx-editor-outlined dx-texteditor-empty dx-widget dx-visibility-change-handler dx-auto-width dx-dropdowneditor dx-datebox-date dx-datebox-calendar"><div class="dx-dropdowneditor-input-wrapper"><input type="hidden" name="paymentDate_70d67162-2d8c-4393-ac38-5e727550abff" value=""><div class="dx-texteditor-container"><div class="dx-texteditor-input-container"><input autocomplete="off" class="dx-texteditor-input" aria-haspopup="true" aria-autocomplete="list" type="text" readonly="" spellcheck="false" tabindex="0" role="combobox" aria-expanded="false"><div data-dx_placeholder="" class="dx-placeholder"></div></div><div class="dx-texteditor-buttons-container"><div></div><div class="dx-button-normal dx-button-mode-contained dx-widget dx-dropdowneditor-button" aria-label="Select" role="button"><div class="dx-button-content"><div class="dx-dropdowneditor-icon"></div></div></div></div></div></div></dx-date-box></div></div><!----><div _ngcontent-pin-c106="" class="row ng-star-inserted"><div _ngcontent-pin-c106="" class="col-xl-6 col-lg-6 col-md-12 col-sm-12"><button _ngcontent-pin-c106="" type="button" class="btn btn-primary mt-2 btn-block" disabled=""> Schedule Payment <!----></button></div><div _ngcontent-pin-c106="" class="col-xl-6 col-lg-6 col-md-12 col-sm-12"><button _ngcontent-pin-c106="" type="button" class="btn btn-outline-primary mt-2 btn-block"> Cancel <!----></button></div></div><!----><div _ngcontent-pin-c106="" class="row ng-star-inserted"><div _ngcontent-pin-c106="" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ng-star-inserted"><button _ngcontent-pin-c106="" type="button" class="btn btn-primary mt-2 btn-block"> Autopay <!----></button></div><!----><div _ngcontent-pin-c106="" class="col-xl-6 col-lg-6 col-md-12 col-sm-12"><button _ngcontent-pin-c106="" type="button" class="btn btn-primary mt-2 btn-block"> View Payments <!----></button></div></div><!----></div></div></div><div _ngcontent-pin-c106="" class="col-md-3 mt-2 mb-2 ng-star-inserted"><div _ngcontent-pin-c106="" class="card"><div _ngcontent-pin-c106="" class="card-body alert-secondary"><h5 _ngcontent-pin-c106="" class="card-title"><input _ngcontent-pin-c106="" type="radio" name="serviceRadio" value="item.paymentAgreementId" id="service_bf6cc35a-9b06-414e-bfa6-c4b528e61602"><label _ngcontent-pin-c106="" class="ml-2" for="service_bf6cc35a-9b06-414e-bfa6-c4b528e61602">Insurance</label></h5><p _ngcontent-pin-c106="" class="card-text">SEGURO MEDICO</p><!----><!----><!----><!----><!----></div></div></div><!----></div><!----></div></div><!----><div _ngcontent-pin-c106="" class="row ng-star-inserted"><div _ngcontent-pin-c106="" class="col-12 ng-star-inserted"><table _ngcontent-pin-c106="" width="100%" class="table-striped table-condensed"><tbody _ngcontent-pin-c106=""><tr _ngcontent-pin-c106="" class="ng-star-inserted"><td _ngcontent-pin-c106=""><div _ngcontent-pin-c106="" class="panel panel-default"><!----><div _ngcontent-pin-c106="" class="panel-heading header-new-blue-info ng-star-inserted"><h5 _ngcontent-pin-c106="" class="panel-title ml-3">Noticia Ejemplo</h5></div><!----><div _ngcontent-pin-c106="" class="panel-body"><p _ngcontent-pin-c106=""><h2><img src="./platform_dashboard_files/images" alt="EDITOR" width="128" height="128"> Formatted Text Editor (HTML Editor)</h2><p><br></p><p>DevExtreme JavaScript HTML Editor is a client-side WYSIWYG text editor that allows its users to format textual and visual content and store it as HTML or Markdown.</p><p>Supported features:</p><ul><li>Inline formats:<ul><li><strong>Bold</strong>, <em>italic</em>, <s>strikethrough</s> text formatting</li><li>Font, size, color changes (HTML only)</li></ul></li><li>Block formats:<ul><li>Headers</li><li>Text alignment</li><li>Lists (ordered and unordered)</li><li>Code blocks</li><li>Quotes</li></ul></li><li>Custom formats</li><li>HTML and Markdown support</li><li>Mail-merge placeholders (for example, %username%)</li><li>Adaptive toolbar for working images, links, and color formats</li><li>Image upload: drag-and-drop images onto the form, select files from the file system, or specify a URL.</li><li>Copy-paste rich content (unsupported formats are removed)</li><li>Tables support</li></ul><p><br></p><p>Supported frameworks and libraries</p><table style="border: 1px solid #000;"><tbody><tr><td data-row="1"><strong>jQuery</strong></td><td data-row="1" style="text-align: right;">v2.1 - v2.2 and v3.x</td></tr><tr><td data-row="2"><strong>Angular</strong></td><td data-row="2" style="text-align: right;">v7.0.x - v10.0.x</td></tr><tr><td data-row="3"><strong>React</strong></td><td data-row="3" style="text-align: right;">v16.2+</td></tr><tr><td data-row="4"><strong>Vue</strong></td><td data-row="4" style="text-align: right;">v2.6.3+</td></tr></tbody></table><p><br></p></p></div></div></td></tr><!----></tbody></table></div><!----><!----></div><!----></div></app-dashboard><!----></section></app-layout><!----></app-root>
+<script src="./platform_dashboard_files/runtime-es2015.60e9650508a2580e1548.js.descarga" type="module"></script><script src="./platform_dashboard_files/runtime-es5.60e9650508a2580e1548.js.descarga" nomodule="" defer=""></script><script src="./platform_dashboard_files/polyfills-es5.fcea099eaaa0bd3e0bd7.js.descarga" nomodule="" defer=""></script><script src="./platform_dashboard_files/polyfills-es2015.3e59deb84d50646c045f.js.descarga" type="module"></script><script src="./platform_dashboard_files/scripts.5aace60a770708492d40.js.descarga" defer=""></script><script src="./platform_dashboard_files/main-es2015.348f45d9edbbe239771c.js.descarga" type="module"></script><script src="./platform_dashboard_files/main-es5.348f45d9edbbe239771c.js.descarga" nomodule="" defer=""></script>
+
+</body></html>
