@@ -1,12 +1,63 @@
 .header .navbar {
-  background: #ffffff !important;
+  background: $white-color !important;
 }
 
 .logo-avatar-header {
   background-repeat: no-repeat !important;
   width: 80% !important;
-  height: 55px !important;
+  height: 50px !important;
   margin: 10px 10px !important;
   padding: 0 !important;
   background-size: contain !important;
+}
+
+.main-container {
+  background: $white-color !important;
+}
+
+.alert-celula-title {
+  color: $white-color !important;
+  background-color: $btn-platform !important;
+  border-color: $btn-platform !important;
+  border-radius: 10px !important;
+}
+
+.alert-celula {
+  color: $white-color !important;
+  background-color: $primary-color-platform !important;
+  border-color: $primary-color-platform !important;
+  border-radius: 10px !important;
+}
+
+.btn-primary-celula {
+  background-color: $btn-platform !important;
+  border-color: $btn-platform!important;
+  color: $white-color !important;
+}
+
+.btn-outline-primary-celula {
+  //border-color: $btn-platform!important;
+  border: 2px solid $btn-platform !important;
+  color: $white-color !important;
+}
+
+.btn-outline-primary-celula:hover {
+  background-color: $btn-platform !important;
+  border-color: $btn-platform!important;
+  //border: 2px solid $btn-platform !important;
+  color: $white-color !important;
+}
+
+.alert-celula-secondary {
+  color: $white-color !important;
+  background-color: $background-card !important;
+  border-color: $background-card !important;
+}
+
+.card-body-celula {
+  min-height: 200px !important;
+}
+
+.card-text-celula {
+  text-align: center;
 }

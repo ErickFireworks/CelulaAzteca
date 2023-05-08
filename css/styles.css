@@ -62,14 +62,54 @@ html * {
   font-weight: 700; }
 
 .header .navbar {
-  background: #ffffff !important; }
+  background: #FFFFFF !important; }
 
 .logo-avatar-header {
   background-repeat: no-repeat !important;
   width: 80% !important;
-  height: 55px !important;
+  height: 50px !important;
   margin: 10px 10px !important;
   padding: 0 !important;
   background-size: contain !important; }
+
+.main-container {
+  background: #FFFFFF !important; }
+
+.alert-celula-title {
+  color: #FFFFFF !important;
+  background-color: #0B4A25 !important;
+  border-color: #0B4A25 !important;
+  border-radius: 10px !important; }
+
+.alert-celula {
+  color: #FFFFFF !important;
+  background-color: #8EBC51 !important;
+  border-color: #8EBC51 !important;
+  border-radius: 10px !important; }
+
+.btn-primary-celula {
+  background-color: #0B4A25 !important;
+  border-color: #0B4A25 !important;
+  color: #FFFFFF !important; }
+
+.btn-outline-primary-celula {
+  border: 2px solid #0B4A25 !important;
+  color: #FFFFFF !important; }
+
+.btn-outline-primary-celula:hover {
+  background-color: #0B4A25 !important;
+  border-color: #0B4A25 !important;
+  color: #FFFFFF !important; }
+
+.alert-celula-secondary {
+  color: #FFFFFF !important;
+  background-color: #E2E3E5 !important;
+  border-color: #E2E3E5 !important; }
+
+.card-body-celula {
+  min-height: 200px !important; }
+
+.card-text-celula {
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
