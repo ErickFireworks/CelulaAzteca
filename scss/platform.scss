@@ -61,3 +61,78 @@
 .card-text-celula {
   text-align: center;
 }
+
+.dx-theme-generic-typography h1 {
+  font-family: 'Lexend' !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 30px !important;
+  line-height: 38px !important;
+  color: $subtitle-platform !important;
+}
+
+.dx-datagrid-headers {
+  table {
+    border-spacing: none !important; 
+    tbody{
+      tr{
+        background: $table-platform !important;
+      }
+      td {
+        font-weight: bold;
+      }
+      td:first-child {
+        border-top-left-radius: 13px !important;
+        border-bottom-left-radius: 13px !important;
+      }
+      td:nth-child(3) {
+        border-top-right-radius: 13px !important;
+        border-bottom-right-radius: 13px !important;
+      }
+    }
+  }
+}
+
+.dx-datagrid-rowsview { 
+  table {
+    border-spacing: 0px 15px !important;
+    tbody{
+      tr{
+        background: $table-platform !important;
+      }
+      td:first-child {
+        border-top-left-radius: 13px !important;
+        border-bottom-left-radius: 13px !important;
+      }
+      td:nth-child(3) {
+        border-top-right-radius: 13px !important;
+        border-bottom-right-radius: 13px !important;
+      }
+    }
+  }
+}
+
+.dx-datagrid-content .dx-datagrid-table {
+  border-collapse: inherit !important;
+}
+
+.dx-datagrid .dx-row> td {
+  padding: 20px 7px 20px 7px !important;
+}
+
+.dx-datagrid .dx-row-lines>td {
+  border-bottom: none !important;
+}
+
+.dx-datagrid-rowsview .dx-row {
+  border-top: 20px solid transparent !important;
+  border-bottom: 20px solid transparent !important;
+}
+
+.dx-datagrid-header-panel {
+  border-bottom: none !important;
+}
+
+.dx-datagrid-headers+.dx-datagrid-rowsview, .dx-datagrid-headers ,.dx-datagrid-headers .dx-datagrid-table .dx-row>td {
+  border: none !important;
+}

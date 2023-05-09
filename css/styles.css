@@ -18,7 +18,7 @@ html * {
   background: #FFFFFF !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05) !important;
   border-radius: 10px !important; }
-.form-container h4 {
+.form-container h1, .form-container h4 {
   font-family: 'Lexend' !important;
   font-style: normal !important;
   font-weight: 800 !important;
@@ -111,5 +111,56 @@ html * {
 
 .card-text-celula {
   text-align: center; }
+
+.dx-theme-generic-typography h1 {
+  font-family: 'Lexend' !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 30px !important;
+  line-height: 38px !important;
+  color: #343434 !important; }
+
+.dx-datagrid-headers table {
+  border-spacing: none !important; }
+.dx-datagrid-headers table tbody tr {
+  background: #E9E9E9 !important; }
+.dx-datagrid-headers table tbody td {
+  font-weight: bold; }
+.dx-datagrid-headers table tbody td:first-child {
+  border-top-left-radius: 13px !important;
+  border-bottom-left-radius: 13px !important; }
+.dx-datagrid-headers table tbody td:nth-child(3) {
+  border-top-right-radius: 13px !important;
+  border-bottom-right-radius: 13px !important; }
+
+.dx-datagrid-rowsview table {
+  border-spacing: 0px 15px !important; }
+.dx-datagrid-rowsview table tbody tr {
+  background: #E9E9E9 !important; }
+.dx-datagrid-rowsview table tbody td:first-child {
+  border-top-left-radius: 13px !important;
+  border-bottom-left-radius: 13px !important; }
+.dx-datagrid-rowsview table tbody td:nth-child(3) {
+  border-top-right-radius: 13px !important;
+  border-bottom-right-radius: 13px !important; }
+
+.dx-datagrid-content .dx-datagrid-table {
+  border-collapse: inherit !important; }
+
+.dx-datagrid .dx-row > td {
+  padding: 20px 7px 20px 7px !important; }
+
+.dx-datagrid .dx-row-lines > td {
+  border-bottom: none !important; }
+
+.dx-datagrid-rowsview .dx-row {
+  border-top: 20px solid transparent !important;
+  border-bottom: 20px solid transparent !important; }
+
+.dx-datagrid-header-panel {
+  border-bottom: none !important; }
+
+.dx-datagrid-headers + .dx-datagrid-rowsview, .dx-datagrid-headers, .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  border: none !important; }
 
 /*# sourceMappingURL=styles.css.map */
