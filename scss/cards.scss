@@ -1,0 +1,91 @@
+/*Cards styles*/
+
+.card{
+  border: none !important;
+}
+
+.card-header {
+  border-top-right-radius: 13px !important;
+  border-top-left-radius: 13px !important;
+  color: $white-color !important;
+  background-color: $card-header !important;
+  border-color: $card-header !important;
+
+  .btn-primary {
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+    color: $white-color !important;
+  }
+}
+
+.card-footer{
+  border-bottom-right-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+  color: $white-color !important;
+  background-color: $card-header !important;
+  border-color: $card-header !important;
+
+  .btn-primary {
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+    color: $white-color !important;
+  }
+}
+
+.card-header-secondary {
+  border-top-right-radius: 13px !important;
+  border-top-left-radius: 13px !important;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: $card-header-secondary;
+  border-bottom: $card-header-secondary;
+  color: $white-color !important;
+}
+
+.card-celula-account-home {
+  min-height: 140px !important;
+  color: $white-color !important;
+  background-color: $primary-color-platform !important;
+  border-color: $primary-color-platform !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .btn-primary {
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+    color: $white-color !important;
+  }
+}
+
+.card-celula-account-primary {
+  color: $black-color !important;
+  background-color: $card-account !important;
+  border-color: $card-account !important;
+  border-radius: 13px !important;
+
+  &:hover{
+    background-color: $table-platform !important;
+    border-color: $table-platform !important;
+  }
+
+  .btn-primary {
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+    color: $white-color !important;
+  }
+}
+
+.card-celula-account-second {
+  color: $black-color !important;
+  background-color: $background-card !important;
+  border-color: $background-card !important;
+}
+
+.card-body-celula {
+  min-height: 200px !important;
+}
+
+.card-text-celula {
+  text-align: center;
+}

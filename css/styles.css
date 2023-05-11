@@ -1,4 +1,6 @@
+/*Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*General Styles*/
 html * {
   font-family: 'Lexend' !important; }
 
@@ -62,13 +64,7 @@ html * {
   color: #444444 !important;
   font-weight: 700; }
 
-.sidebar {
-  background-color: #f4f4f4 !important;
-  width: 200px !important;
-  top: 70px !important; }
-.sidebar ul li a {
-  background-color: #E9E9E9 !important; }
-
+/*Navbar styles*/
 .header .navbar {
   background: #FFFFFF !important; }
 
@@ -80,6 +76,24 @@ html * {
   padding: 0 !important;
   background-size: contain !important; }
 
+/*Sidebar Styles*/
+.sidebar {
+  background-color: #f4f4f4 !important;
+  width: 130px !important;
+  top: 65px !important; }
+.sidebar .item-even {
+  background-color: #E9E9E9 !important; }
+.sidebar .item-odd {
+  background-color: #f4f4f4 !important; }
+.sidebar ul li a {
+  text-align: center; }
+.sidebar ul li a img {
+  width: 35% !important; }
+.sidebar ul li a:hover {
+  color: rgba(0, 0, 0, 0.25) !important;
+  opacity: 0.5; }
+
+/*Platform general styles*/
 .main-container {
   background: #FFFFFF !important; }
 
@@ -118,6 +132,7 @@ html * {
   border-bottom-right-radius: 13px !important;
   border-bottom-left-radius: 13px !important; }
 
+/*Cards styles*/
 .card {
   border: none !important; }
 
@@ -189,6 +204,7 @@ html * {
 .card-text-celula {
   text-align: center; }
 
+/*Table Styles*/
 .dx-theme-generic-typography h1 {
   font-family: 'Lexend' !important;
   font-style: normal !important;
@@ -240,7 +256,7 @@ html * {
 .dx-datagrid-headers + .dx-datagrid-rowsview, .dx-datagrid-headers, .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
   border: none !important; }
 
-/*Modal*/
+/*Modal styles*/
 .modal h4, .modal .row {
   color: #343434 !important;
   font-weight: bold !important; }

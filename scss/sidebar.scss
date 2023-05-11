@@ -1,17 +1,30 @@
+/*Sidebar Styles*/
 .sidebar {
   background-color: $card-account !important;
-  width: 200px !important;
-  top: 70px !important;
+  width: 130px !important;
+  top: 65px !important;
+
+  .item-even {
+    background-color: $table-platform !important;
+  }
+
+  .item-odd {
+    background-color: $card-account  !important;
+  }
 
   ul {
-    
     li {
       a {
-         background-color: $table-platform !important;
+         text-align: center;
+         img {
+          width: 35% !important;
+         }
+         &:hover {
+          color: rgba(0, 0, 0, 0.25) !important;
+          opacity: 0.5;
+         }
       }
     }
     
   }
-
-
 }
