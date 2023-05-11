@@ -1,0 +1,57 @@
+/*Modal*/
+.modal {
+
+  h4, .row {
+    color: $subtitle-platform !important;
+    font-weight: bold !important;
+  }
+
+  .btn-primary {
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+    color: $white-color !important;
+  }
+
+  .btn-outline-dark {
+    border: 2px solid $btn-platform !important;
+    color: $btn-platform !important;
+    &:hover{
+      background-color: $btn-platform !important;
+      border-color: $btn-platform!important;
+      color: $white-color !important;
+    }
+  }
+
+  .btn-circle {
+    // padding: 13px 18px !important;
+    border-radius: 60px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  button.close { 
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 27px !important;
+    background: $card-header-secondary !important;
+    color: $white-color !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-self: center !important;
+    align-items: self-end !important;
+    font-size: 1.6rem !important;
+    font-weight: unset !important;
+    padding: unset !important;
+    line-height: unset;
+    margin: unset;
+  }
+
+  .modal-footer {
+    justify-content: space-around !important;
+
+    button {
+      width: 40% !important;
+    }
+  }
+
+}

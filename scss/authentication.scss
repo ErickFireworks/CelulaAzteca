@@ -1,6 +1,5 @@
-html * {
-  font-family: 'Lexend' !important;
-}
+/*Sign in, Reset password, Sign out*/
+
 .login-background {
   background: $background;
 }
@@ -28,8 +27,7 @@ html * {
     font-size: 30px !important;
     line-height: 38px !important;
     text-align: center !important;
-    // text-transform: uppercase;
-    color: #217D3D;
+    color: $title-content-auth;
   }
 
   .label-bold {
@@ -45,11 +43,11 @@ html * {
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
-    color: #7E7E7E;
+    color: $black-gray;
   }
 
   input[type=text], input[type=password] {
-    border: 1px solid #AAAAAA !important;
+    border: 1px solid $input-text !important;
     border-radius: 5px !important;
   }
 

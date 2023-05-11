@@ -1,0 +1,17 @@
+.sidebar {
+  background-color: $card-account !important;
+  width: 200px !important;
+  top: 70px !important;
+
+  ul {
+    
+    li {
+      a {
+         background-color: $table-platform !important;
+      }
+    }
+    
+  }
+
+
+}

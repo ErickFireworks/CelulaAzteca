@@ -2,6 +2,7 @@
 html * {
   font-family: 'Lexend' !important; }
 
+/*Sign in, Reset password, Sign out*/
 .login-background {
   background: linear-gradient(90deg, rgba(37, 145, 69, 0.95) 0%, rgba(141, 198, 65, 0.95) 100%) !important; }
 
@@ -60,6 +61,13 @@ html * {
 .alert-primary-ca a {
   color: #444444 !important;
   font-weight: 700; }
+
+.sidebar {
+  background-color: #f4f4f4 !important;
+  width: 200px !important;
+  top: 70px !important; }
+.sidebar ul li a {
+  background-color: #E9E9E9 !important; }
 
 .header .navbar {
   background: #FFFFFF !important; }
@@ -231,5 +239,44 @@ html * {
 
 .dx-datagrid-headers + .dx-datagrid-rowsview, .dx-datagrid-headers, .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
   border: none !important; }
+
+/*Modal*/
+.modal h4, .modal .row {
+  color: #343434 !important;
+  font-weight: bold !important; }
+.modal .btn-primary {
+  background-color: #20843F !important;
+  border-color: #20843F !important;
+  color: #FFFFFF !important; }
+.modal .btn-outline-dark {
+  border: 2px solid #0B4A25 !important;
+  color: #0B4A25 !important; }
+.modal .btn-outline-dark:hover {
+  background-color: #0B4A25 !important;
+  border-color: #0B4A25 !important;
+  color: #FFFFFF !important; }
+.modal .btn-circle {
+  border-radius: 60px !important;
+  width: 40px !important;
+  height: 40px !important; }
+.modal button.close {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 27px !important;
+  background: #a9aaac !important;
+  color: #FFFFFF !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-self: center !important;
+  align-items: self-end !important;
+  font-size: 1.6rem !important;
+  font-weight: unset !important;
+  padding: unset !important;
+  line-height: unset;
+  margin: unset; }
+.modal .modal-footer {
+  justify-content: space-around !important; }
+.modal .modal-footer button {
+  width: 40% !important; }
 
 /*# sourceMappingURL=styles.css.map */
