@@ -17,6 +17,18 @@
   
 }
 
+.alert-celula-secondary {
+  color: $white-color !important;
+  background-color: $background-card !important;
+  border-color: $background-card !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+}
+
+
 .btn-primary-celula {
   background-color: $btn-platform !important;
   border-color: $btn-platform!important;
@@ -34,16 +46,12 @@
   color: $white-color !important;
 }
 
-.alert-celula-secondary {
-  color: $white-color !important;
-  background-color: $background-card !important;
-  border-color: $background-card !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom-right-radius: 13px !important;
-  border-bottom-left-radius: 13px !important;
+.btn-circle {
+  border-radius: 60px !important;
+  width: 40px !important;
+  height: 40px !important;
 }
+
 
 
 

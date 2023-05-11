@@ -722,13 +722,52 @@
           <!--Todas las col y mx pasar a auto-->
           <div _ngcontent-ipc-c109="" class="col-md-auto mx-md-auto col-xl-auto mx-xl-auto my-auto ng-tns-c109-1"><i _ngcontent-ipc-c109="" aria-hidden="true" class="fa fa-shield fa-8x ng-tns-c109-1"></i><h1 _ngcontent-ipc-c109="" class="ng-tns-c109-1"></h1>
           <!-- Agregar clase form-container -->
-          <form _ngcontent-ipc-c109="" novalidate="" role="form" class="form-container ng-tns-c109-1 ng-untouched ng-pristine ng-invalid"><div _ngcontent-ipc-c109="" class="ng-tns-c109-1"><h4 _ngcontent-gjj-c108="" class="ng-tns-c108-0">Registro Cliente</h4><br /><br /><div _ngcontent-ipc-c109="" class="form-group ng-tns-c109-1"><dx-text-box _ngcontent-ipc-c109="" name="email" required="" autocomplete="off" class="ng-tns-c109-1 ng-untouched ng-pristine dx-show-invalid-badge dx-textbox dx-texteditor dx-editor-outlined dx-texteditor-empty dx-widget ng-invalid"><div class="dx-texteditor-container"><div class="dx-texteditor-input-container"><input autocomplete="off" class="dx-texteditor-input" type="text" spellcheck="false" name="email" tabindex="0" role="textbox"><div data-dx_placeholder="Correo" class="dx-placeholder"></div></div><div class="dx-texteditor-buttons-container"><div></div></div></div></dx-text-box></div><div _ngcontent-ipc-c109="" class="form-group ng-tns-c109-1"><dx-text-box _ngcontent-ipc-c109="" mask="(X00) 000-0000" name="phone" required="" autocomplete="off" class="ng-tns-c109-1 ng-untouched ng-pristine dx-show-invalid-badge dx-textbox dx-texteditor dx-editor-outlined dx-widget dx-texteditor-masked ng-invalid"><input type="hidden" name="phone" value=""><div class="dx-texteditor-container"><div class="dx-texteditor-input-container"><input autocomplete="off" class="dx-texteditor-input" type="text" spellcheck="false" tabindex="0" role="textbox"><div data-dx_placeholder="No. Celular" class="dx-placeholder dx-state-invisible"></div></div><div class="dx-texteditor-buttons-container"><div></div></div></div></dx-text-box></div><div _ngcontent-ipc-c109="" class="form-group ng-tns-c109-1">
+          <form _ngcontent-ipc-c109="" novalidate="" role="form" class="form-container ng-tns-c109-1 ng-untouched ng-pristine ng-invalid"><div _ngcontent-ipc-c109="" class="ng-tns-c109-1"><h4 _ngcontent-gjj-c108="" class="ng-tns-c108-0">Registro Cliente</h4><br /><br />
+            <!-- Agregar text-left -->
+            <div _ngcontent-ipc-c109="" class="form-group ng-tns-c109-1 text-left">
+              <!-- Agregar Label -->
+              <label _ngcontent-ipc-c109="" class="ng-tns-c109-1 label-bold">Correo Electrónico</label>
+              <dx-text-box _ngcontent-ipc-c109="" name="email" required="" autocomplete="off" class="ng-tns-c109-1 ng-untouched ng-pristine dx-show-invalid-badge dx-textbox dx-texteditor dx-editor-outlined dx-texteditor-empty dx-widget ng-invalid">
+                <div class="dx-texteditor-container">
+                  <div class="dx-texteditor-input-container">
+                    <input autocomplete="off" class="dx-texteditor-input" type="text" spellcheck="false" name="email" tabindex="0" role="textbox">
+                    <div data-dx_placeholder="Correo" class="dx-placeholder"></div>
+                  </div>
+                  <div class="dx-texteditor-buttons-container"><div>
+
+                  </div>
+                </div>
+              </div>
+            </dx-text-box>
+          </div>
+          <!-- Agregar text-left -->
+          <div _ngcontent-ipc-c109="" class="form-group ng-tns-c109-1 text-left">
+            <!-- Agregar Label -->
+            <label _ngcontent-ipc-c109="" class="ng-tns-c109-1 label-bold">Celular</label>
+            <dx-text-box _ngcontent-ipc-c109="" mask="(X00) 000-0000" name="phone" required="" autocomplete="off" class="ng-tns-c109-1 ng-untouched ng-pristine dx-show-invalid-badge dx-textbox dx-texteditor dx-editor-outlined dx-widget dx-texteditor-masked ng-invalid">
+              <input type="hidden" name="phone" value="">
+              <div class="dx-texteditor-container">
+                <div class="dx-texteditor-input-container">
+                  <input autocomplete="off" class="dx-texteditor-input" type="text" spellcheck="false" tabindex="0" role="textbox">
+                  <div data-dx_placeholder="No. Celular" class="dx-placeholder dx-state-invisible"></div>
+                </div>
+                <div class="dx-texteditor-buttons-container">
+                  <div></div>
+                </div>
+              </div>
+            </dx-text-box>
+          </div>
+          <div _ngcontent-ipc-c109="" class="form-group ng-tns-c109-1">
             <!-- Agregar clase label-bold -->
-            <label _ngcontent-ipc-c109="" class="ng-tns-c109-1 label-bold">Enviar Código de Seguridad</label></div><div _ngcontent-ipc-c109="" class="form-group row col-12 ng-tns-c109-1"><div _ngcontent-ipc-c109="" class="col-6 ng-tns-c109-1"><input _ngcontent-ipc-c109="" type="radio" id="useEmail" name="useDataRadio" value="&#39;useEmail&#39;" class="ng-tns-c109-1">
-            <!-- Agregar clase  label-thin -->
+            <label _ngcontent-ipc-c109="" class="ng-tns-c109-1 label-bold">Enviar Código de Seguridad</label>
+          </div>
+          <div _ngcontent-ipc-c109="" class="form-group row col-12 ng-tns-c109-1">
+            <div _ngcontent-ipc-c109="" class="col-6 ng-tns-c109-1">
+              <input _ngcontent-ipc-c109="" type="radio" id="useEmail" name="useDataRadio" value="&#39;useEmail&#39;" class="ng-tns-c109-1">
+            <!-- Agregar clase label-thin -->
             <label _ngcontent-ipc-c109="" for="useEmail" class="ml-2 ng-tns-c109-1 label-thin">Email</label>
           </div><div _ngcontent-ipc-c109="" class="col-6 ng-tns-c109-1"><input _ngcontent-ipc-c109="" type="radio" id="usePhone" name="useDataRadio" value="&#39;usePhone&#39;" class="ng-tns-c109-1">
-            <!-- Agregar clase  label-thin -->
+            <!-- Agregar clase label-thin -->
             <label _ngcontent-ipc-c109="" for="usePhone" class="ml-2 ng-tns-c109-1 label-thin">Celular</label>
           </div></div><!----><!----><!----><!----></div><!----><div _ngcontent-ipc-c109="" class="row ng-tns-c109-1 ng-star-inserted" style=""><div _ngcontent-ipc-c109="" class="col-12 col-md-6 ng-tns-c109-1 ng-star-inserted">
             <!-- Eliminar btn primary -->

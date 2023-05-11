@@ -108,6 +108,16 @@ html * {
   background-color: #8EBC51 !important;
   border-color: #8EBC51 !important; }
 
+.alert-celula-secondary {
+  color: #FFFFFF !important;
+  background-color: #E2E3E5 !important;
+  border-color: #E2E3E5 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 13px !important;
+  border-bottom-left-radius: 13px !important; }
+
 .btn-primary-celula {
   background-color: #0B4A25 !important;
   border-color: #0B4A25 !important;
@@ -122,15 +132,10 @@ html * {
   border-color: #0B4A25 !important;
   color: #FFFFFF !important; }
 
-.alert-celula-secondary {
-  color: #FFFFFF !important;
-  background-color: #E2E3E5 !important;
-  border-color: #E2E3E5 !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom-right-radius: 13px !important;
-  border-bottom-left-radius: 13px !important; }
+.btn-circle {
+  border-radius: 60px !important;
+  width: 40px !important;
+  height: 40px !important; }
 
 /*Cards styles*/
 .card {
