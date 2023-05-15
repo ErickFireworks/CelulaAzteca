@@ -1,4 +1,4 @@
 /*General Styles*/
-html * {
+html *:not( i.important ){
   font-family: 'Lexend' !important;
 }
