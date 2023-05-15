@@ -52,6 +52,19 @@
   }
 
   button {
+    // background: $primary-color !important;
+    // border-radius: 5px !important;
+    // border: 2px solid $primary-color !important;
+    // font-style: normal !important;
+    // font-weight: 700 !important;
+    // font-size: 12px !important;
+    // line-height: 19px !important;
+    // text-align: center !important;
+    // color: $white-color !important;
+    // padding: 10px 25px !important;
+  }
+
+  .btn-primary-celula-azteca {
     background: $primary-color !important;
     border-radius: 5px !important;
     border: 2px solid $primary-color !important;
@@ -62,7 +75,8 @@
     text-align: center !important;
     color: $white-color !important;
     padding: 10px 25px !important;
-  }
+  } 
+
 }
 
 .alert-primary-ca{
