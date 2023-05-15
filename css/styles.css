@@ -111,6 +111,8 @@ h1, h4 {
   background-color: #E9E9E9 !important; }
 .sidebar .item-odd {
   background-color: #f4f4f4 !important; }
+.sidebar .sidebar .menu-icon {
+  color: #7E7E7E; }
 .sidebar ul li a {
   text-align: center; }
 .sidebar ul li a img {
