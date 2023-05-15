@@ -63,7 +63,7 @@ h1,h4 {
     color: $black-gray;
   }
 
-  input[type=text], input[type=password] {
+  input[type=text], input[type=password], input[type=email] {
     border: 1px solid $input-text !important;
     border-radius: 5px !important;
   }
