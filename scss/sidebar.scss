@@ -42,5 +42,12 @@
       }
     }
     
+    .submenu {
+      li{
+        a{
+          color: $black-gray !important;
+        }
+      }
+    }
   }
 }
