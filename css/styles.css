@@ -119,6 +119,8 @@ h1, h4 {
   align-items: center !important;
   flex-direction: column !important;
   height: 100px !important; }
+.sidebar .align-items-celula i {
+  font-size: 30px !important; }
 .sidebar ul li a {
   text-align: center; }
 .sidebar ul li a img {
