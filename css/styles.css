@@ -117,7 +117,8 @@ h1, h4 {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  flex-direction: column !important; }
+  flex-direction: column !important;
+  height: 150px !important; }
 .sidebar ul li a {
   text-align: center; }
 .sidebar ul li a img {
