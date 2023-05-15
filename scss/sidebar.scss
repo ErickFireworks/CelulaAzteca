@@ -16,6 +16,13 @@
     color: $black-gray !important;
   }
 
+  .align-items-celula {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
   ul {
     li {
       a {

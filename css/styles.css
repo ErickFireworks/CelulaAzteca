@@ -113,6 +113,11 @@ h1, h4 {
   background-color: #f4f4f4 !important; }
 .sidebar .menu-icon {
   color: #7E7E7E !important; }
+.sidebar .align-items-celula {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important; }
 .sidebar ul li a {
   text-align: center; }
 .sidebar ul li a img {
