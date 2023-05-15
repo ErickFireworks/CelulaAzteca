@@ -53,6 +53,17 @@ h1, h4 {
 .form-container input[type=text], .form-container input[type=password] {
   border: 1px solid #AAAAAA !important;
   border-radius: 5px !important; }
+.form-container .btn {
+  background: #20843F !important;
+  border-radius: 5px !important;
+  border: 2px solid #20843F !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+  padding: 10px 25px !important; }
 .form-container .btn-primary-celula-azteca {
   background: #20843F !important;
   border-radius: 5px !important;
