@@ -105,7 +105,7 @@ h1, h4 {
 /*Sidebar Styles*/
 .sidebar {
   background-color: #f4f4f4 !important;
-  width: 130px !important;
+  width: 350px !important;
   top: 65px !important; }
 .sidebar .item-even {
   background-color: #E9E9E9 !important; }
