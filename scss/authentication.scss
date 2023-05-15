@@ -23,6 +23,13 @@ h1,h4 {
   color: $black-gray !important;
 }
 
+.content-center-card{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
 .form-container {
   width: 400px;
   padding: 20px 70px;
