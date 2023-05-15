@@ -1,5 +1,15 @@
 /*Sign in, Reset password, Sign out*/
 
+h1,h4 {
+  font-family: 'Lexend' !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 30px !important;
+  line-height: 38px !important;
+  text-align: center !important;
+  color: $title-content-auth;
+}
+
 .login-background {
   background: $background;
 }
