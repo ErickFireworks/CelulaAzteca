@@ -12,7 +12,7 @@ h1, h4 {
   font-size: 30px !important;
   line-height: 38px !important;
   text-align: center !important;
-  color: #217D3D; }
+  color: #217D3D !important; }
 
 .login-background {
   background: linear-gradient(90deg, rgba(37, 145, 69, 0.95) 0%, rgba(141, 198, 65, 0.95) 100%) !important; }
