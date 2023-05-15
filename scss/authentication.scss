@@ -1,14 +1,14 @@
 /*Sign in, Reset password, Sign out*/
 
 h1,h4 {
-  font-family: 'Lexend' !important;
-  font-style: normal !important;
-  font-weight: 800 !important;
-  font-size: 30px !important;
-  line-height: 38px !important;
-  text-align: center !important;
-  color: $title-content-auth !important;
-}
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 38px !important;
+    text-align: center !important;
+    color: $black-color !important;
+  }
 
 .login-background {
   background: $background;
@@ -23,7 +23,7 @@ h1,h4 {
   color: $black-gray !important;
 }
 
-.content-center-card{
+.content-center-card {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
