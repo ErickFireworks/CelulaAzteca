@@ -184,6 +184,11 @@ h1, h4 {
   width: 40px !important;
   height: 40px !important; }
 
+.alert-celula-azteca {
+  color: #383d41 !important;
+  background-color: #e2e3e5 !important;
+  border-color: #d6d8db !important; }
+
 /*Cards styles*/
 .card {
   border: none !important; }
