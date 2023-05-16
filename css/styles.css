@@ -4,9 +4,6 @@
 html *:not(i) {
   font-family: 'Lexend' !important; }
 
-.main-container {
-  padding: 110px 15px 50px !important; }
-
 /*Sign in, Reset password, Sign out*/
 h1, h4 {
   font-family: 'Lexend' !important;
@@ -145,7 +142,8 @@ h1, h4 {
 
 /*Platform general styles*/
 .main-container {
-  background: #FFFFFF !important; }
+  background: #FFFFFF !important;
+  padding: 110px 15px 50px !important; }
 
 .alert-celula-title {
   color: #FFFFFF !important;
