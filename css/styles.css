@@ -302,12 +302,6 @@ h1, h4 {
   background: #E9E9E9 !important; }
 .dx-datagrid-headers table tbody td {
   font-weight: bold; }
-.dx-datagrid-headers table tbody td:first-child {
-  border-top-left-radius: 13px !important;
-  border-bottom-left-radius: 13px !important; }
-.dx-datagrid-headers table tbody td:nth-child(3) {
-  border-top-right-radius: 13px !important;
-  border-bottom-right-radius: 13px !important; }
 
 .dx-datagrid-rowsview table {
   border-spacing: 0px 15px !important; }
