@@ -56,7 +56,7 @@ h1, h4 {
   font-size: 15px;
   line-height: 19px;
   color: #7E7E7E; }
-.form-container input[type=text], .form-container input[type=password], .form-container input[type=email] {
+.form-container input[type=text], .form-container input[type=password], .form-container input[type=email], .form-container .form-control:invalid {
   border: 1px solid #AAAAAA !important;
   border-radius: 5px !important; }
 .form-container .btn {
