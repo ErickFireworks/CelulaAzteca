@@ -116,6 +116,10 @@ h1, h4 {
 .header a {
   color: #7E7E7E !important; }
 
+@media only screen and (max-width: 768px) {
+  .header a {
+    display: flex;
+    flex-direction: column; } }
 /*Sidebar Styles*/
 .sidebar {
   background-color: #f4f4f4 !important;
