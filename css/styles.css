@@ -269,9 +269,9 @@ h1, h4 {
 .card-text-celula {
   text-align: center; }
 
-.align-button {
-  display: flex;
-  justify-content: space-between; }
+.align-buttons {
+  display: flex !important;
+  justify-content: space-between !important; }
 
 /*Table Styles*/
 .dx-theme-generic-typography h1 {
