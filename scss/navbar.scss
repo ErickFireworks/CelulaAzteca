@@ -21,5 +21,10 @@
   .header a {
     display: flex;
     flex-direction: column;
+    font-size: 1 rem;
+  }
+
+  .logo-avatar-header {
+    width: 30% !important;
   }
 }
