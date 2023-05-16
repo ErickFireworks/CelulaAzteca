@@ -1,8 +1,11 @@
 /*General Styles*/
-html *:not( i ):not(.dx-widget ){
+html *:not( i ){
   font-family: 'Lexend' !important;
 }
 
+html *:not(.dx-widget ){
+  font-family: 'Lexend' !important;
+}
 // .dx-widget {
 //   color: #333 !important;
 //   font-weight: 400 !important;
