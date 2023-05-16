@@ -10,3 +10,8 @@ html *:not( i ){
   font-family: "Helvetica Neue","Segoe UI",helvetica,verdana,sans-serif !important;
   line-height: 1.35715 !important;
 }
+
+.btn {
+  /*Esta clase afecta a todos los botones de bootstrap pero unicamente en profile three*/
+  max-width: 300px;
+}
