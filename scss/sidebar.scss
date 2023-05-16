@@ -30,6 +30,11 @@
 
   .list-group{
     a {
+
+      .router-link-active{
+        color: $black-gray !important;
+      }
+
       &:hover{
         color: rgba(0, 0, 0, 0.25) !important;
         opacity: 0.5;
