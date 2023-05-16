@@ -28,11 +28,15 @@
     }
   }
 
+  .router-link-active{
+    color: $black-gray !important;
+  }
+
   .list-group{
     a {
 
       .router-link-active{
-        color: $black-gray !important;
+        color: $black-color !important;
       }
 
       &:hover{
