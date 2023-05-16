@@ -189,16 +189,16 @@ h1, h4 {
   border-bottom-right-radius: 13px !important;
   border-bottom-left-radius: 13px !important; }
 
-.btn-primary-celula {
+.btn-primary-celula-azteca {
   background-color: #0B4A25 !important;
   border-color: #0B4A25 !important;
   color: #FFFFFF !important; }
 
-.btn-outline-primary-celula {
+.btn-outline-primary-celula-azteca {
   border: 2px solid #0B4A25 !important;
   color: #FFFFFF !important; }
 
-.btn-outline-primary-celula:hover {
+.btn-outline-primary-celula-azteca:hover {
   background-color: #0B4A25 !important;
   border-color: #0B4A25 !important;
   color: #FFFFFF !important; }
