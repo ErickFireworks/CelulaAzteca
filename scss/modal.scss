@@ -7,15 +7,17 @@
     font-weight: bold !important;
   }
 
-  .btn-primary {
+  .btn-primary-celula-azteca {
     background-color: $primary-color !important;
     border-color: $primary-color !important;
     color: $white-color !important;
+    max-width: 300px;
   }
 
-  .btn-outline-dark {
+  .btn-outline-dark-celula-azteca, .btn-outline-celula-azteca {
     border: 2px solid $btn-platform !important;
     color: $btn-platform !important;
+    max-width: 300px;
     &:hover{
       background-color: $btn-platform !important;
       border-color: $btn-platform!important;

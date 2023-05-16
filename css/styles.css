@@ -331,14 +331,16 @@ h1, h4 {
 .modal h4, .modal .row {
   color: #343434 !important;
   font-weight: bold !important; }
-.modal .btn-primary {
+.modal .btn-primary-celula-azteca {
   background-color: #20843F !important;
   border-color: #20843F !important;
-  color: #FFFFFF !important; }
-.modal .btn-outline-dark {
+  color: #FFFFFF !important;
+  max-width: 300px; }
+.modal .btn-outline-dark-celula-azteca, .modal .btn-outline-celula-azteca {
   border: 2px solid #0B4A25 !important;
-  color: #0B4A25 !important; }
-.modal .btn-outline-dark:hover {
+  color: #0B4A25 !important;
+  max-width: 300px; }
+.modal .btn-outline-dark-celula-azteca:hover, .modal .btn-outline-celula-azteca:hover {
   background-color: #0B4A25 !important;
   border-color: #0B4A25 !important;
   color: #FFFFFF !important; }
