@@ -247,13 +247,23 @@ h1, h4 {
 
 .card-celula-account-primary {
   color: #444444 !important;
+  background-color: #E9E9E9 !important;
+  border-color: #E9E9E9 !important;
+  border-radius: 13px !important; }
+.card-celula-account-primary .btn-primary {
+  background-color: #20843F !important;
+  border-color: #20843F !important;
+  color: #FFFFFF !important; }
+
+.card-celula-account-secondary {
+  color: #444444 !important;
   background-color: #f4f4f4 !important;
   border-color: #f4f4f4 !important;
   border-radius: 13px !important; }
-.card-celula-account-primary:hover {
+.card-celula-account-secondary:hover {
   background-color: #E9E9E9 !important;
   border-color: #E9E9E9 !important; }
-.card-celula-account-primary .btn-primary {
+.card-celula-account-secondary .btn-primary {
   background-color: #20843F !important;
   border-color: #20843F !important;
   color: #FFFFFF !important; }
