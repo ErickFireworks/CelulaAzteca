@@ -102,6 +102,9 @@ h1, h4 {
   padding: 0 !important;
   background-size: contain !important; }
 
+.header a {
+  color: #7E7E7E !important; }
+
 /*Sidebar Styles*/
 .sidebar {
   background-color: #f4f4f4 !important;
