@@ -1,0 +1,480 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*General Styles*/
+html *:not(i, [class*="icon"], [class*="dx-treeview-toggle-item"]) {
+  font-family: 'Lexend' !important;
+}
+
+.btn {
+  /*Esta clase afecta a todos los botones de bootstrap pero unicamente en profile three*/
+  max-width: 300px;
+}
+
+/*Sign in, Reset password, Sign out*/
+h1, h4 {
+  font-family: 'Lexend' !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 30px !important;
+  line-height: 38px !important;
+  text-align: center !important;
+  color: #444444 !important;
+}
+
+.login-background {
+  background: linear-gradient(90deg, rgba(37, 145, 69, 0.95) 0%, rgba(141, 198, 65, 0.95) 100%) !important;
+}
+
+.anchor-login {
+  color: #444444 !important;
+  font-weight: 700;
+}
+
+.version-login {
+  color: #7E7E7E !important;
+}
+
+.content-center-card {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+.form-container {
+  width: 400px;
+  padding: 20px 70px;
+  background: #FFFFFF !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 10px !important;
+}
+
+  .form-container h1, .form-container h4 {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    line-height: 38px !important;
+    text-align: center !important;
+    color: #217D3D;
+  }
+
+  .form-container .label-bold {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #444444;
+  }
+
+  .form-container .label-thin {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #7E7E7E;
+  }
+
+  .form-container input[type=text], .form-container input[type=password], .form-container input[type=email], .form-container .form-control:invalid {
+    border: 1px solid #AAAAAA !important;
+    border-radius: 5px !important;
+  }
+
+  .form-container .btn {
+    background: #20843F !important;
+    border-radius: 5px !important;
+    border: 2px solid #20843F !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+    padding: 10px 25px !important;
+  }
+  
+.alert-primary-ca {
+  color: #444444 !important;
+  background-color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+}
+
+  .alert-primary-ca a {
+    color: #444444 !important;
+    font-weight: 700;
+  }
+
+/*Navbar styles*/
+.header .navbar {
+  background: #FFFFFF !important;
+}
+
+.logo-avatar-header {
+  background-repeat: no-repeat !important;
+  width: 40% !important;
+  height: 50px !important;
+  margin: 10px 20px !important;
+  padding: 0 !important;
+  background-size: contain !important;
+}
+
+.header a {
+  color: #7E7E7E !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .header a {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem !important;
+  }
+
+  .logo-avatar-header {
+    width: 30% !important;
+  }
+}
+/*Sidebar Styles*/
+.sidebar {
+  background-color: #f4f4f4 !important;
+  width: 350px !important;
+  top: 65px !important;
+}
+
+  .sidebar .item-even {
+    background-color: #E9E9E9 !important;
+  }
+
+  .sidebar .item-odd {
+    background-color: #f4f4f4 !important;
+  }
+
+  .sidebar .menu-icon {
+    color: #7E7E7E !important;
+  }
+
+  .sidebar .align-items-celula {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    height: 100px !important;
+  }
+
+    .sidebar .align-items-celula i {
+      font-size: 30px !important;
+    }
+
+  .sidebar .router-link-active {
+    color: #7E7E7E !important;
+  }
+
+  .sidebar .list-group a .router-link-active {
+    color: #444444 !important;
+  }
+
+  .sidebar .list-group a:hover {
+    color: rgba(0, 0, 0, 0.59) !important;
+    opacity: 0.5;
+  }
+
+  .sidebar ul li a {
+    text-align: center;
+  }
+
+    .sidebar ul li a img {
+      width: 35% !important;
+    }
+
+    .sidebar ul li a:hover {
+      color: rgba(0, 0, 0, 0.59) !important;
+      opacity: 0.5;
+    }
+
+  .sidebar ul .submenu li a {
+    color: #7E7E7E !important;
+  }
+
+    .sidebar ul .submenu li a:hover {
+      color: rgba(0, 0, 0, 0.25) !important;
+      opacity: 0.5;
+    }
+
+/*Platform general styles*/
+.main-container {
+  background: #FFFFFF !important;
+  padding: 110px 15px 50px !important;
+}
+
+.alert-celula-title {
+  color: #FFFFFF !important;
+  background-color: #0B4A25 !important;
+  border-color: #0B4A25 !important;
+  border-radius: 10px !important;
+}
+
+.alert-celula {
+  color: #FFFFFF !important;
+  background-color: #8EBC51 !important;
+  border-color: #8EBC51 !important;
+}
+
+.alert-celula-secondary {
+  color: #FFFFFF !important;
+  background-color: #E2E3E5 !important;
+  border-color: #E2E3E5 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+}
+
+.alert-primary {
+  color: #383d41 !important;
+  background-color: #e2e3e5 !important;
+  border-color: #d6d8db !important;
+}
+
+.nav-link {
+  color: #343434 !important;
+}
+
+.nav-link.active {
+  color: #383d41 !important;
+  background-color: #e2e3e5 !important;
+  border-color: #d6d8db !important;
+}
+
+/*Cards styles*/
+.card {
+  border: none !important;
+}
+
+.card-header {
+  border-top-right-radius: 13px !important;
+  border-top-left-radius: 13px !important;
+  color: #FFFFFF !important;
+  background-color: #BBD797 !important;
+  border-color: #BBD797 !important;
+}
+
+  .card-header .btn-primary {
+    background-color: #20843F !important;
+    border-color: #20843F !important;
+    color: #FFFFFF !important;
+  }
+
+.card-footer {
+  border-bottom-right-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+  color: #FFFFFF !important;
+  background-color: #BBD797 !important;
+  border-color: #BBD797 !important;
+}
+
+  .card-footer .btn-primary {
+    background-color: #20843F !important;
+    border-color: #20843F !important;
+    color: #FFFFFF !important;
+  }
+
+.card-header-secondary {
+  border-top-right-radius: 13px !important;
+  border-top-left-radius: 13px !important;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #a9aaac;
+  border-bottom: #a9aaac;
+  color: #FFFFFF !important;
+}
+
+.card-celula-account-home {
+  min-height: 140px !important;
+  color: #FFFFFF !important;
+  background-color: #8EBC51 !important;
+  border-color: #8EBC51 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .card-celula-account-home .btn-primary {
+    background-color: #20843F !important;
+    border-color: #20843F !important;
+    color: #FFFFFF !important;
+  }
+
+.card-celula-account-primary {
+  color: #444444 !important;
+  background-color: #7e7e7e73 !important;
+  border-color: #7e7e7e73 !important;
+  border-radius: 13px !important;
+}
+
+  .card-celula-account-primary .btn-primary {
+    background-color: #20843F !important;
+    border-color: #20843F !important;
+    color: #FFFFFF !important;
+  }
+
+.card-celula-account-secondary {
+  color: #444444 !important;
+  background-color: #f4f4f4 !important;
+  border-color: #f4f4f4 !important;
+  border-radius: 13px !important;
+}
+
+  .card-celula-account-secondary:hover {
+    background-color: #E9E9E9 !important;
+    border-color: #E9E9E9 !important;
+  }
+
+  .card-celula-account-secondary .btn-primary {
+    background-color: #20843F !important;
+    border-color: #20843F !important;
+    color: #FFFFFF !important;
+  }
+
+.card-celula-account-second {
+  color: #444444 !important;
+  background-color: #E2E3E5 !important;
+  border-color: #E2E3E5 !important;
+}
+
+.card-body-celula {
+  min-height: 200px !important;
+}
+
+.card-text-celula {
+  text-align: center;
+}
+
+.align-buttons {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+/*Table Styles*/
+.dx-theme-generic-typography h1 {
+  font-family: 'Lexend' !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 30px !important;
+  line-height: 38px !important;
+  color: #343434 !important;
+}
+
+.dx-datagrid-headers table {
+  border-spacing: none !important;
+}
+
+  .dx-datagrid-headers table tbody tr {
+    background: #E9E9E9 !important;
+  }
+
+  .dx-datagrid-headers table tbody td {
+    font-weight: bold;
+  }
+
+.dx-datagrid-rowsview table {
+  border-spacing: 0px 15px !important;
+}
+
+  .dx-datagrid-rowsview table tbody tr {
+    background: #E9E9E9 !important;
+  }
+
+.dx-datagrid-content .dx-datagrid-table {
+  border-collapse: inherit !important;
+}
+
+.dx-datagrid .dx-row > td {
+  padding: 20px 7px 20px 7px !important;
+}
+
+.dx-datagrid .dx-row-lines > td {
+  border-bottom: none !important;
+}
+
+.dx-datagrid-rowsview .dx-row {
+  border-top: 20px solid transparent !important;
+  border-bottom: 20px solid transparent !important;
+}
+
+.dx-datagrid-header-panel {
+  border-bottom: none !important;
+}
+
+.dx-datagrid-headers + .dx-datagrid-rowsview, .dx-datagrid-headers, .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  border: none !important;
+}
+
+/*Modal styles*/
+.modal h4, .modal .row {
+  color: #343434 !important;
+  font-weight: bold !important;
+}
+
+.modal .modal-footer {
+  justify-content: space-around !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #20843F !important;
+  border-color: #20843F !important;
+  color: #FFFFFF !important;
+  max-width: 300px;
+}
+
+.btn-outline-dark, .btn-outline {
+  border: 2px solid #0B4A25 !important;
+  color: #0B4A25 !important;
+  max-width: 300px;
+}
+
+.btn-outline-dark:hover, .btn-outline:hover {
+  background-color: #0B4A25 !important;
+  border-color: #0B4A25 !important;
+  color: #FFFFFF !important;
+}
+
+.modal button.close {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 27px !important;
+  background: #a9aaac !important;
+  color: #FFFFFF !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-self: center !important;
+  align-items: self-end !important;
+  font-size: 1.5rem !important;
+  font-weight: unset !important;
+  padding: unset !important;
+  line-height: unset;
+  margin: unset;
+}
+
+.modal .modal-footer button {
+  width: 40% !important;
+}
+
+.btn-outline-primary {
+  border: 2px solid #0B4A25 !important;
+  color: #FFFFFF !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0B4A25 !important;
+  border-color: #0B4A25 !important;
+  color: #FFFFFF !important;
+}
+
+.btn-circle {
+  border-radius: 60px !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
